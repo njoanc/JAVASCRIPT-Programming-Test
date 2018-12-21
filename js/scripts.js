@@ -1,10 +1,20 @@
-body {
-  font-size: 20px;
-  font-family: sans-serif;
-  color: #333;
-  border: 100px solid rgb(206, 236, 206);
-  margin-left: 100px;
-  margin-right: 100px;
-  margin-top: 70px;
-  margin-bottom: 70px;
+//Business(or back-end)logic:
+var answers = ["C", "C", "C", "C", "C", "C", "C", "C", "A", "C"],
+  tot = answers.length;
+
+function getCheckedValue(radioName) {
+  var radios = document.getElementsByName(radioName); // Get radio group by-name
+  for (var y = 0; y < radios.length; y++)
+    if (radios[y].checked) return radios[y].value; // return the checked value
+}
+
+function getScore() {
+  var score = 0;
+  for (var i = 0; i < tot; i++)
+    if (getCheckedValue("question" + i) === answers[i]) score += 1; // increment only
+  return score;
+}
+
+function returnScore() {
+  alert("Your score is " + getScore() + "/" + tot);
 }

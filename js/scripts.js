@@ -18,3 +18,22 @@ function getScore() {
 function returnScore() {
   alert("Your score is " + getScore() + "/" + tot);
 }
+//User interface(or front-end)logic:
+$(document).ready(function() {
+  $("form").submit(function(event) {
+    var answers = [];
+
+    // $(".correct").each(function() {
+    //   answers.push($(this).prop("checked"));
+    // });
+
+    // console.log(answers);
+
+    $("#result").text("Your score is " + getScore(answers));
+    // $("#story").show();
+    event.preventDefault();
+  });
+  $("#score").click(function() {
+    $("#result").slideToggle();
+  });
+});

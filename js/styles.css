@@ -45,8 +45,12 @@ body {
   background-color: #bed6d6;
   text-align: center;
 }
-.footerP {
+.footer p {
   color: rgb(76, 30, 204);
   font-family: FiraSans-Regular, sans-serif;
   font-size: 16px;
+}
+#result {
+  display: none;
+  color: rgb(209, 19, 152);
 }

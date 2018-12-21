@@ -1,24 +1,24 @@
-#JAVASCRIPT-Programming-Test
+# JAVASCRIPT-Programming-Test
 # Jeanne d'Arc NYIRAMWIZA
 ## JAVASCRIPT Programming Test
 . December, 20, 2018.
 ### By **Jeanne d'Arc NYIRAMWIZA**
 ## Description
 This JAVASCRIPT Programming Test is an after-school computer club students for getting their level of understanding on JavaScript language. and how they assimulate the lessons gotten during this period of prep.
-##BDD
-###Specs for the JAVASCRIPT-Programming-Test
-####BEHAVIOR1
+## BDD
+### Specs for the JAVASCRIPT-Programming-Test
+#### BEHAVIOR1
 *The user can select the answer
 -Input:The user selects the answer"C"
 -Output:The program saves "C"
-####BEHAVIOR2
+#### BEHAVIOR2
 *The program can detect the correct answer
 -Input: The user selects the wrong answer "B"
 Output: The program saves "B" as the wrong answer
-####BEHAVIOR3
+#### BEHAVIOR3
 *The program can set result of each question answered
 -Input: If the user clicks on the wrong answer, the program gives 0/1, if he clicks the right answer, the program gives 1/1
-####BEHAVIOR3
+#### BEHAVIOR3
 *The program can display the result average
 Input: If the user finishes the quiz, he clicks on click on the submit button
 Output:The program displays the average of the user results

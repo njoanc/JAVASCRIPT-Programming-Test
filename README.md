@@ -28,7 +28,7 @@ This JAVASCRIPT Programming Test is an after-school computer club students for g
 https://github.com/njoanc/JAVASCRIPT-Programming-Test.git,
 cd jsTest.html
 atom .
-code . [//]: # (this is if Visual Studio Code is your preferred text editor)
+code . (this is if Visual Studio Code is your preferred text editor)
 ## Known Bugs
 You must be online the first time you use the wizard to generate an app or no templates will be loaded.
 ## Technologies Used

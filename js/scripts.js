@@ -34,6 +34,7 @@ $(document).ready(function() {
     event.preventDefault();
   });
   $("#score").click(function() {
+    $("#quiz").toggle();
     $("#result").slideToggle();
   });
 });

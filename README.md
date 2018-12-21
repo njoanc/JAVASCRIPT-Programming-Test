@@ -21,6 +21,12 @@ This JAVASCRIPT Programming Test is an after-school computer club students for g
 * The program can display the result average
   * Input: If the user finishes the quiz, he clicks on click on the submit button
   * Output:The program displays the average of the user results
+* The program hide the form
+ * Input: The user click on submit button
+ * Output: The quiz form is hidden and results are displayed
+* The program is able redisplay the form quiz
+ * Input: The user click on paragraph
+ * Out: The quiz form is showed
 
 ## Setup/Installation Requirements
 * To start using this quiz use the following commands:

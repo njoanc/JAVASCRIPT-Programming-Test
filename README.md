@@ -31,7 +31,7 @@ This JAVASCRIPT Programming Test is an after-school computer club students for g
 ## Setup/Installation Requirements
 * To start using this quiz use the following commands:
 
-https://github.com/njoanc/JAVASCRIPT-Programming-Test.git,
+https://github.com/njoanc/JAVASCRIPT-Programming-Test.git, or https://njoanc.github.io/jsProgrammingTest/JsQuiz.html
 cd jsTest.html atom .  or 
 code . (this is if Visual Studio Code is your preferred text editor)
 ## Known Bugs

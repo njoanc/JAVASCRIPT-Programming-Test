@@ -6,23 +6,21 @@
 ## Description
 This JAVASCRIPT Programming Test is an after-school computer club students for getting their level of understanding on JavaScript language. and how they assimulate the lessons gotten during this period of prep.
 ## BDD
-### Specs for the JAVASCRIPT-Programming-Test
-#### BEHAVIOR1
+### BEHAVIOR
 *The user can select the answer
--Input:The user selects the answer"C"
--Output:The program saves "C"
-#### BEHAVIOR2
+  *Input:The user selects the answer"C"
+  *Output:The program saves "C"
+  
 *The program can detect the correct answer
--Input: The user selects the wrong answer "B"
-Output: The program saves "B" as the wrong answer
-#### BEHAVIOR3
-*The program can set result of each question answered
--Input: If the user clicks on the wrong answer, the program gives 0/1, if he clicks the right answer, the program gives 1/1
-#### BEHAVIOR3
-*The program can display the result average
-Input: If the user finishes the quiz, he clicks on click on the submit button
-Output:The program displays the average of the user results
+  *Input: The user selects the wrong answer "B"
+  *Output: The program saves "B" as the wrong answer
 
+*The program can set result of each question answered
+  *Input: The user clicks on the wrong answer, the program gives , he may click the right answer
+  *Output:The program saves the score on each question answered
+*The program can display the result average
+  *Input: If the user finishes the quiz, he clicks on click on the submit button
+  *Output:The program displays the average of the user results
 
 ## Setup/Installation Requirements
 * To start using this quiz use the following commands:

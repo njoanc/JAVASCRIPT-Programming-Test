@@ -8,3 +8,19 @@ body {
   margin-top: 70px;
   margin-bottom: 70px;
 }
+#moringa {
+  float: right;
+}
+.jumbotron > h1 {
+  color: green;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+.question {
+  font-weight: 600;
+}
+.answers {
+  margin-bottom: 20px;
+}
+.answers label {
+  display: block;
+}

@@ -33,8 +33,12 @@ $(document).ready(function() {
     // $("#story").show();
     event.preventDefault();
   });
-  $("#score").click(function() {
+  $("#submit").click(function() {
     $("#quiz").toggle();
     $("#result").slideToggle();
+  });
+  $("#score").click(function() {
+    $("#result").toggle();
+    $("#quiz").slideToggle();
   });
 });

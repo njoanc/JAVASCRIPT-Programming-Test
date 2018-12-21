@@ -36,9 +36,11 @@ $(document).ready(function() {
   $("#submit").click(function() {
     $("#quiz").toggle();
     $("#result").slideToggle();
+    $("#score").show();
   });
   $("#score").click(function() {
     $("#result").toggle();
     $("#quiz").slideToggle();
+    $("#score").toggle();
   });
 });

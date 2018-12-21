@@ -33,8 +33,14 @@ $(document).ready(function() {
     // $("#story").show();
     event.preventDefault();
   });
-  $("#score").click(function() {
+  $("#submit").click(function() {
     $("#quiz").toggle();
     $("#result").slideToggle();
+    $("#score").show();
+  });
+  $("#score").click(function() {
+    $("#result").toggle();
+    $("#quiz").slideToggle();
+    $("#score").toggle();
   });
 });

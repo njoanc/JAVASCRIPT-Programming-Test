@@ -54,3 +54,6 @@ body {
   display: none;
   color: rgb(209, 19, 152);
 }
+#score {
+  display: none;
+}
